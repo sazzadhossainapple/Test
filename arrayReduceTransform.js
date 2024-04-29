@@ -12,4 +12,5 @@ const fn = function sum(accum, curr) {
     return accum + curr;
 };
 const init = 0;
+// output
 console.log(reduce(nums, fn, init));
