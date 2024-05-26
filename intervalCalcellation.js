@@ -21,7 +21,7 @@ var cancellable = function (fn, args, t) {
 };
 
 const fn = (x) => x * 2;
-const args = [4];
+const args = [6];
 const t = 35;
 
 const cancel = cancellable(fn, args, t);
